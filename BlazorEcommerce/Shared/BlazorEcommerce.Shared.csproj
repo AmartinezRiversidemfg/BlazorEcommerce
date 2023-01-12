@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="IntelliTect.Coalesce.CodeGeneration.Api" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Language.Intellisense" Version="17.4.255" />
+  </ItemGroup>
+
+  <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
 </Project>
